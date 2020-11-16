@@ -50,7 +50,7 @@ public class AbstractTest {
         WebDriver driver = WebDriverContainer.getInstance().getWebDriver();
 
         // Закрываем браузер по завершению теста
-        //driver.quit();
+        driver.quit();
 
     }
 }
